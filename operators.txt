@@ -1,0 +1,93 @@
+#arithmetic operator
+
+print("arithmetic operator") 
+
+a=10 
+
+b=5 
+
+print("addition:",a+b) 
+
+print("subtraction:",a-b) 
+
+print("multiplication:",a*b) 
+
+print("division:",a/b) 
+
+print("floor division:",a//b) 
+
+print("modulus:",a%b) 
+
+print("exponent:",a**b) 
+
+ 
+
+ 
+
+number=int(input("enter a number:")) 
+
+if (number % 5 == 0): 
+
+        print("even") 
+
+else: 
+
+        print("odd") 
+
+ 
+#relational operator
+
+print("relational operator") 
+
+a=10 
+
+b=5 
+
+print(a>b) 
+
+print(a<b) 
+
+print(a==b) 
+
+print(a!=b) 
+
+print(a>=b) 
+
+print(a<=b) 
+
+
+
+
+price=int(input("price:"))
+if price>=1000:
+    discount=0.05*price
+    print(discount)
+else:
+    print("no discount")
+
+
+
+kenyan_citizen=True
+age=int(input("years: "))
+years=age>=18
+
+if kenyan_citizen and years:
+    print("elligible to vote")
+else:
+    print("not elligible to vote")
+
+
+# Assignment Operator
+d = 3
+b = 5
+f = d + b
+print(f)
+
+
+
+
+students=["krypton","narasha", "spider","marvel"]
+if "krypton" in students:
+ print("present")
+else:
+  print("absent")
